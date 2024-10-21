@@ -55,13 +55,8 @@ view balances, and download balance sheets.
 
    ### Expensee Endpoints
    - POST /api/expense
-        1. Headers:
      
-          {
-              "Authorization": "Bearer <token>"
-          }
-     
-     2. Body
+     1. Body
      
                {
                 "amount": 100,
