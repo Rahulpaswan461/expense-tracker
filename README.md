@@ -42,7 +42,8 @@ view balances, and download balance sheets.
          {
             "name": "John Doe",
             "email": "johndoe@example.com",
-            "password": "password123"
+            "password": "password123",
+            "phone": "123456789"
         }
 
  - POST /api/user/login
@@ -68,6 +69,8 @@ view balances, and download balance sheets.
                 "splitMethod": "equal",
                 "createdBy": "UserID1"
                }
+
+        
   - GET /api/get/:userId - expense details for the specific user
   - GET /api/get-all - all the expenses details of the user     
   - GET /api/expense/balance/:userId
@@ -75,9 +78,9 @@ view balances, and download balance sheets.
    ## Technologies Used
 - Node.js: JavaScript runtime for building fast, scalable network applications.
 - Express.js: Web framework for Node.js.
-- MongoDB: NoSQL database for storing users, admins, and assignments.
+- MongoDB: NoSQL database for storing users and expenses details.
 - Mongoose: ODM library for MongoDB and Node.js.
-- JWT: Used for authentication and authorization.
+- JWT: Used for authentication.
 - dotenv: For managing environment variables.
 
   ## License
