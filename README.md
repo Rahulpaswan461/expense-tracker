@@ -63,8 +63,8 @@ view balances, and download balance sheets.
                 "amount": 100,
                 "description": "Lunch with friends",
                 "participants": [
-                    {"userId": "UserID1", "amountPaid": 50},
-                    {"userId": "UserID2", "amountPaid": 50}
+                    {"userId": "UserID1", "amountOwed": 50},
+                    {"userId": "UserID2", "amountOwed": 50}
                 ],
                 "splitMethod": "equal",
                 "createdBy": "UserID1"
